@@ -1,9 +1,9 @@
-str = "i am coder"
-print(str.endswith("i am coder"))
-print(str.capitalize())
-print(str.replace("coder" ," good "))
-print(str.find("a"))
-print(str.count("coder"))
+text = "i am coder"
+print(text.endswith("i am coder"))
+print(text.capitalize())
+print(text.replace("coder","good"))
+print(text.find("a"))
+print(text.count("coder"))
 marks = 72
 if marks >= 90: 
     grade ="A"
