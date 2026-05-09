@@ -22,15 +22,18 @@ elif num == 0:
     print("zero")
 else:
     print("negative")
-num = 18
-if (num < 0):
-    print("number is negative")
-elif (num > 0):
-    if (num <= 10):
-        print("number is between 1-10")
-elif (num > 10 and num <= 20):
-    print("number is between 11-20")
+num = 15
+if num > 0:
+    if num <= 10:
+      print("number is zero")
+if num > 0:
+    if num <= 10:
+      print("number is between 1-10")
+    elif num > 10 and num <= 20:
+        print("number is between 11-20 ")
+    else:
+        print("number is greater than 20")
+elif num == 0:
+    print("number is zero")
 else:
-    print("number is greater than 20 ")
-print("number is between 11-20")
-
+    print("number is negative")
